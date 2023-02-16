@@ -36,6 +36,6 @@ Prior to that, I got a BSc and a MSc in Biomedical Engineering from [Instituto S
 For my MSc thesis, I worked on variance reduction for Stochastic Convex Optimization with [Renato Negrinho](https://www.cs.cmu.edu/~negrinho/), [Pedro Aguiar](http://users.isr.ist.utl.pt/~aguiar/), and [João Xavier](http://users.isr.tecnico.ulisboa.pt/~jxavier/).
 
 In my spare time, I am really into sports! Back in Portugal, I used to play football at a decent level. You can check my (Portuguese) football player page [here](https://www.zerozero.pt/player.php?id=473202&epoca_id=151) and a young Manuel playing [here](https://www.youtube.com/watch?v=JuynV0rC6Uw) (8 in red and black stripes).
-I do also enjoy great [books](https://www.goodreads.com/user/show/110959921-manuel-madeira) and [movies](https://letterboxd.com/manuel_madeira/)!
+I do also enjoy great [books](https://www.goodreads.com/user/show/110959921-manuel-madeira) and [movies](https://letterboxd.com/manuel_madeira/).
 
 For a complete list of publications, check my [Google Scholar page](https://scholar.google.com/citations?user=OhijpAwAAAAJ&hl=pt-PT&oi=sra).
