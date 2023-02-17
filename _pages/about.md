@@ -32,10 +32,10 @@ Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions P
 
 Before starting my PhD, I was a Machine Learning researcher at [Inductiva Research Labs](https://inductiva.ai), where I worked on Physics-Informed Neural Networks for heat diffusion and coastal dynamics.
 
-Prior to that, I got a BSc and a MSc in Biomedical Engineering from [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/). I was also a visiting student at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
+Prior to that, I completed my BSc and MSc in Biomedical Engineering from [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/). I was also a visiting student at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 For my MSc thesis, I worked on variance reduction for Stochastic Convex Optimization with [Renato Negrinho](https://www.cs.cmu.edu/~negrinho/), [Pedro Aguiar](http://users.isr.ist.utl.pt/~aguiar/), and [João Xavier](http://users.isr.tecnico.ulisboa.pt/~jxavier/).
 
-In my spare time, I am really into sports! Back in Portugal, I used to play football at a decent level. You can check my (Portuguese) football player page [here](https://www.zerozero.pt/player.php?id=473202&epoca_id=151) and a young Manuel playing [here](https://www.youtube.com/watch?v=JuynV0rC6Uw) (8 in red and black stripes).
+In my spare time, I am really into sports! Back in Portugal, I used to play football at a competitive level. You can check my (Portuguese) football player page [here](https://www.zerozero.pt/player.php?id=473202&epoca_id=151) and a young Manuel playing [here](https://www.youtube.com/watch?v=JuynV0rC6Uw) (8 in red and black stripes).
 I do also enjoy great [books](https://www.goodreads.com/user/show/110959921-manuel-madeira) and [movies](https://letterboxd.com/manuel_madeira/).
 
 For a complete list of publications, check my [Google Scholar page](https://scholar.google.com/citations?user=OhijpAwAAAAJ&hl=pt-PT&oi=sra).
