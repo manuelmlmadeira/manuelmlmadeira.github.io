@@ -7,12 +7,12 @@ subtitle: PhD student in Artificial Intelligence at <a href='https://www.epfl.ch
 #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: left
+  align: left 
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: 
+  # address: 
   # address: >
-  #   <p>PhD student in AI at EPFL</p>
+  #   <p>PhD student at EPFL</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -25,9 +25,11 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Welcome, I am Manuel!
+<!-- Welcome, I am Manuel! -->
 
-I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). I am broadly interested in enabling scientific discoveries using AI methods. Currently, I am working on Graph Neural Networks for biomedical data, mainly in the generative setting.
+I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research lies in the intersection of generative modeling and graph deep learning. I am also interested in leveraging these methods to trigger scientific breakthroughs, especially within the biomedical field.
+
+<!-- I am broadly interested in enabling scientific discoveries using machine learning methods. Currently, I am working on Graph Neural Networks for biomedical data, mainly in the generative setting. -->
 
 Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions Portugal](https://deeplearningpt.github.io). We are a volunteer group whose goal is to promote the AI literacy and the collaboration among its practitioners in Portugal.
 
