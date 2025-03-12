@@ -14,6 +14,10 @@ description: Second blogpost of the Heat series, on how to solve the Heat equati
 
 **Reviewers**: Fábio Cruz, Augusto Peres
 
+*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
+
+---
+
 ## Discretizing our domain
 
 Deciding how to discretize the domain is also _far_ from being set on stone: for
@@ -81,8 +85,7 @@ In essence, we must find an algorithm which can propagate the constrains set by
 the PDE from the initial conditions as faithfully as possible along the grid. In
 a more specific sense, you might wonder:
 
-> How to approximate $\mathcal{L}$ _reasonably_ to obtain $u[k,i,j]$ for all
-> nodes $[k,i,j]$?
+> How to approximate $\mathcal{L}$ _reasonably_ to obtain $u[k,i,j]$ for all nodes $[k,i,j]$?
 
 This is exactly what the FDM solver will accomplish. For that, it has to
 approximate the differential operators --- $u_{t}[k,i,j]$, $u_{xx}[k,i,j]$ and
@@ -96,8 +99,8 @@ Approximating differentials on a discrete set is also not a recipe set on stone.
 Let us look at two Finite Difference approximations to a function of a single
 variable $x$:
 
-<div class="align-center">
-    <img style="width:40%;" src="../assets/img/blogposts/heat2/derivatives.png" >
+<div style="text-align: center;">
+    <img style="width:40%;" src="../../../assets/img/blogposts/heat2/derivatives.png" >
 </div>
 
 
@@ -194,16 +197,16 @@ We can understand how knowledge about the function **propagates** along the grid
 with a _stencil_ by depicting which input grid points are needed to iterate the
 algorithm so a solution estimate may be computed at all grid points.
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/fdm_animation.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/fdm_animation.mp4" type="video/mp4">
 </video>
 </div>
 
 **Fig. 2**: A stencil used by the FTCS scheme. At a given node $[k,i,j]$, the
 solution is propagated forward in time as $u[k+1,i,j]$ by considering the
 2-point centered derivatives in $x$ (the neighboring nodes $[k,i+1,j]$ and
-$[k,i-1,j]$) and in $y$ (the nodes $[k,i,j+1]$ and $[k,i,j-1]$). <br> Credits:
+$[k,i-1,j]$) and in $y$ (the nodes $[k,i,j+1]$ and $[k,i,j-1]$). Credits:
 Augusto Peres, Inductiva.
 
 ## Run our code
@@ -224,15 +227,15 @@ now run for different thermal diffusivities and see their effect. Below you can
 see the temperature profiles as we increase $D$ --- first with $D=0.01$, then
 $D=0.1$ and finally $D=1$.
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/ftcs_d001.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/ftcs_d001.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/ftcs_d01.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/ftcs_d01.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/ftcs_d1.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/ftcs_d1.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -305,9 +308,9 @@ Just to show you that we're playing with fire, we cannot think of a more illustr
 example than by ramping up that bound by a mere $2 \% $ above
 the theoretical maximum *i.e.* for $\alpha + \beta \approx 0.51$:
 
-<div class="align-center">
+<div style="text-align: center;">
 <video style="width:80%;" class="mb-0" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/ftcs_unstable.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/ftcs_unstable.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -335,9 +338,9 @@ within the admissible area. Dropping our bound by
 $2 \% $, let's heat the start
 button for $\alpha + \beta \approx 0.49$.
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat2/ftcs_almost_unstable.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat2/ftcs_almost_unstable.mp4" type="video/mp4">
 </video>
 </div>
 

@@ -3,7 +3,12 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']], // Enable inline math
+        displayMath: [['\\[', '\\]']], // Enable block math
         tags: 'ams'
+      },
+      svg: {
+        fontCache: 'global'
       }
     };
   </script>

@@ -13,6 +13,9 @@ description: Fourth and last blogpost of the Heat series. It showcases how to us
 
 **Reviewers**: Fábio Cruz
 
+*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
+
+---
 
 
 In this section, we are going to show you that a grand unification of gravity
@@ -20,8 +23,8 @@ within a quantum field theory framework can explain topologically nontrivial
 dynamics observed in simulations of graviton inelastic collisions in a AdS
 space. Let's go!
 
-<div class="align-center">
-<img src="../assets/img/blogposts/heat4/shaq.gif">
+<div style="text-align: center;">
+<img src="../../../assets/img/blogposts/heat4/shaq.gif">
 </div>
 
 It's all good. We're just messing with your mental sanity!
@@ -164,8 +167,8 @@ appropriate algorithms that can handle such beasts as _dem'_ mighty PDEs!
 To test these notions of _generalization_, we will consider our usual setup of
 heat diffusion across a 2D rectangular plate:
 
-<div class="align-center">
-    <img style="width:40%;" src="../assets/img/blogposts/heat4/IBCs_hot_edge.png">
+<div style="text-align: center;">
+    <img style="width:40%;" src="../../../assets/img/blogposts/heat4/IBCs_hot_edge.png">
 </div>
 
 **Fig. 1**: The usual initial and boundary conditions (IBCs) we assume to solve the
@@ -213,8 +216,7 @@ already be of **dubious** predictive power!
 
 So, we face a structural question here:
 
-> How can we encode this boundary information as input to the PINN in a way the
-> model can effectively generalize its effect on the output solution?
+> How can we encode this boundary information as input to the PINN in a way the model can effectively generalize its effect on the output solution?
 
 To answer this, let's focus on an extremely simple setup to showcase this
 training capability. We will keep _all_ boundary and initial conditions fixed
@@ -228,8 +230,8 @@ solution function to other IBCs _natively_ in its architecture.
 In this simple configuration, a single **parameter** $u_{\rm top}$ will become
 an **additional** input.
 
-<div class="align-center">
-    <img style="width:80%;" src="../assets/img/blogposts/heat4/PINN_top_edge.png">
+<div style="text-align: center;">
+    <img style="width:80%;" src="../../../assets/img/blogposts/heat4/PINN_top_edge.png">
 </div>
 
 **Fig 2**: Our PINN will now be able to learn the behavior of the solution as the
@@ -271,15 +273,15 @@ the Heat series. The flags in this command line fulfill different purposes:
 Let's analyze it by using a classical Finite Difference Method (FDM) for
 $u_{\rm top} =0 \;^\mathrm{o}C$) as the benchmark.
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/generalization_bc.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/generalization_bc.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/generalization_bc_fdm.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/generalization_bc_fdm.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/generalization_bc_error.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/generalization_bc_error.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -326,8 +328,8 @@ Our code implementation supports designing a plate with an arbitrary number of
 holes inside the problem domain. Let's focus on a single hole at the plate
 center:
 
-<div class="align-center">
-    <img style="width:60%;" src="../assets/img/blogposts/heat4/IBCs_hole.png">
+<div style="text-align: center;">
+    <img style="width:60%;" src="../../../assets/img/blogposts/heat4/IBCs_hole.png">
 </div>
 
 **Fig. 4**: We now generalize our boundary and initial conditions given the domain
@@ -336,7 +338,7 @@ $u_{\rm top} \in [-1,1] \;^\mathrm{o}C$, while the hole boundary is of the hot
 or cold type. Credits: David Carvalho / Inductiva.
 
 Given this, we keep the boundary and initial conditions as in the previous
-setting (top edge at the maximal temperature ($u =  1\;^\mathrm{o}C$) and the
+setting: top edge at the maximal temperature ($u =  1\;^\mathrm{o}C$) and the
 rest of the boundaries and initial points at the minimal temperature
 ($u = -1\;^\mathrm{o}C$).
 
@@ -373,12 +375,12 @@ Regarding the new flags in these command lines:
 So, for the same $u_{\rm top} = 1\;^\mathrm{o}C$, we see the difference in the
 profile for both the cold and hot hole edge scenarios:
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/hot_hole.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/hot_hole.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/cold_hole.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/cold_hole.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -403,14 +405,16 @@ For instance, let's think of more physically-relevant cases. Can we understand
 the physics behind this irregular setting where 3 holes of various sizes and
 positions are found and the boundary is now curved?
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/3_holes.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/3_holes.mp4" type="video/mp4">
 </video>
+</div>
 
 **Fig. 6**: Heat flow across a more complex domain composed of three holes of
 varying sizes and positions, as well as curved left and right boundaries.
 Credits: Manuel Madeira / Inductiva.
+
 
 ## Generalizing through grid-searching (is inefficient)
 
@@ -419,15 +423,15 @@ output changes by changing the diffusitivity rate $D$ for the hot hole scenario.
 
 For that, we simply run each PDE for each $D$:
 
-<div class="align-center">
+<div style="text-align: center;">
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/hot_hole_d0.01.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/hot_hole_d0.01.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/hot_hole.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/hot_hole.mp4" type="video/mp4">
 </video>
 <video class="mb-0" style="width:80%;" loop muted autoplay preload="auto">
-    <source src="../assets/img/blogposts/heat4/hot_hole_d1.mp4" type="video/mp4">
+    <source src="../../../assets/img/blogposts/heat4/hot_hole_d1.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -472,8 +476,8 @@ terms of `IDRLnet nodes`) underneath the implementation it receives.
 
 For this our instance, the representations obtained can be visualized as:
 
-<div class="align-center">
-    <img style="width:80%;" src="../assets/img/blogposts/heat4/nodes.png">
+<div style="text-align: center;">
+    <img style="width:80%;" src="../../../assets/img/blogposts/heat4/nodes.png">
 </div>
 
 **Fig. 8**: Computational graphs considered by IDRLnet for each sampling domain

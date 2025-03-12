@@ -13,19 +13,16 @@ description: First blogpost of a series on the Heat equation, where we introduce
 
 **Reviewers**: Fábio Cruz
 
-The world of classical simulation and the world AI are merging into a broader
-form of computational solutions for science and engineering. In a previous
-[tutorial](../generating-synthetic-data/synthetic-data-generation-1.md), we
-showed how you could use Inductiva's simulation API to generate synthetic data
-for training a GNN.
+*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
 
-In this tutorial, we will go in a slightly different direction and we guide you
-through an example one of the most exciting technical outcomes of this marriage
-between classical simulation and AI: Physics-Informed Neural Networks, or PINNs
-for short. The most notable difference between using PINNs vs using more generic
-neural networks is that, in PINNs, we explicitly encode knowledge about the the
-physical laws in the training loss of the neural network, allowing it to more
-quickly converge to functions that are physically sound.
+---
+
+The world of classical simulation and the world AI are merging into a broader
+form of computational solutions for science and engineering. 
+<!-- In a previous [tutorial](../generating-synthetic-data/synthetic-data-generation-1.md), we showed how you could use Inductiva's simulation API to generate synthetic datafor training a GNN. -->
+<!-- In this tutorial, we will go in a slightly different direction and we guide you through an example one of the most exciting technical outcomes of this marriage between classical simulation and AI: Physics-Informed Neural Networks, or PINNs for short.  -->
+In this tutorial, we will guide you through an example one of the most exciting technical outcomes of this marriage between classical simulation and AI: Physics-Informed Neural Networks, or PINNs for short.
+The most notable difference between using PINNs vs using more generic neural networks is that, in PINNs, we explicitly encode knowledge about the the physical laws in the training loss of the neural network, allowing it to more quickly converge to functions that are physically sound.
 
 As a simple example, we will focus on the problem of 🔥 **heat diffusion** on a
 plate! 🔥
@@ -146,13 +143,16 @@ _Heat_ series, we employ _Dirichlet boundary conditions_, which ensure:
 
 - through the the _boundary conditions_, that a temperature is fixed at _all_
   times _only_ for points along the 4 edges of the plate (top, bottom, left and
-  right). - We choose the energy source to act as to get the top edge to some
-  hot temperature. We'll take $u(t, x, y_\mathrm{max}) = 1 ^\mathrm{o}C \ .$ -
-  The remaining edges are held at some cold temperature. We'll take
-  $\underbrace{u(t, x, y_\mathrm{min})}_{\text{Bottom}} = \underbrace{u(t, x_{\mathrm{min}}, y)}_{\text{Left}} =  \underbrace{u(t, x_\mathrm{max}, y)}_{\text{Right}} = -1 ^\mathrm{o}C \ .$
+  right). We choose the energy source to act as to get the top edge to some hot temperature. We'll take $u(t, x, y_{\max}) = 1^\circ C.$
+  The remaining edges are held at some cold temperature.
+  We'll take:
+  $$\underbrace{u(t, x, y_{\min})}_{\text{Bottom}} = \underbrace{u(t, x_{\min}, y)}_{\text{Left}} = \underbrace{u(t, x_{\max}, y)}_{\text{Right}} = -1^\circ C.$$
 
-<div class="align-center">
-    <img style="width:40%;" src="../assets/img/blogposts/heat1/BIC.png">
+<!-- <div class="align-center">
+    <img style="width:40%;" src="../../../assets/img/blogposts/heat1/BIC.png">
+</div> -->
+<div style="text-align: center;">
+    <img style="width:40%;" src="../../../assets/img/blogposts/heat1/BIC.png">
 </div>
 
 **Fig. 1**: The boundary and initial conditions used throughout the Heat series.
