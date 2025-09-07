@@ -7,7 +7,7 @@ subtitle: PhD student in Artificial Intelligence at <a href='https://www.epfl.ch
 #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: left 
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: 
@@ -27,6 +27,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <!-- Welcome, I am Manuel! -->
 
+I am currently an Applied Scientist Intern at Amazon.
+
 I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research interests span generative modeling, graph deep learning, and their applications in scientific discovery.
 I have been working on advancing graph generative methods and improving their controllability by leveraging domain knowledge.
 
@@ -35,7 +37,7 @@ I have been working on advancing graph generative methods and improving their co
 
 <!-- I am broadly interested in enabling scientific discoveries using machine learning methods. Currently, I am working on Graph Neural Networks for biomedical data, mainly in the generative setting. -->
 
-Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions Portugal](https://deeplearningpt.github.io). We are a volunteer group whose goal is to promote the AI literacy and the collaboration among its practitioners in Portugal.
+<!-- Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions Portugal](https://deeplearningpt.github.io). We are a volunteer group whose goal is to promote the AI literacy and the collaboration among its practitioners in Portugal. -->
 
 Before starting my PhD, I was a Machine Learning researcher at [Inductiva Research Labs](https://inductiva.ai), where I worked on physics-informed neural networks for heat diffusion and coastal dynamics.
 
