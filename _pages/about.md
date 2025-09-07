@@ -7,7 +7,7 @@ subtitle: PhD student in Artificial Intelligence at <a href='https://www.epfl.ch
 #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: 
