@@ -27,10 +27,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <!-- Welcome, I am Manuel! -->
 
-I am currently an Applied Scientist Intern at Amazon.
+<!-- I am currently an Applied Scientist Intern at Amazon. -->
 
-I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research interests span generative modeling, graph deep learning, and their applications in scientific discovery.
-I have been working on advancing graph generative methods and improving their controllability by leveraging domain knowledge.
+I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research focuses on the interplay between generative models, in particular diffusion, and data structure, often using graph generation as a testbed. I explore both how these models exploit inherent data structure and how to explicitly encode this structure into them, with applications to scientific discovery, such as molecular generation and digital pathology. I am also interested in extending these ideas to broader domains, e.g., language.
+
+<!-- My research interests span generative modeling, graph deep learning, and their applications in scientific discovery. -->
+<!-- I have been working on advancing graph generative methods and improving their controllability by leveraging domain knowledge. -->
 
 
 <!-- My research lies in the intersection of generative modeling and graph deep learning. I am also interested in leveraging these methods to trigger scientific breakthroughs, especially within the biomedical field. -->
@@ -39,7 +41,7 @@ I have been working on advancing graph generative methods and improving their co
 
 <!-- Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions Portugal](https://deeplearningpt.github.io). We are a volunteer group whose goal is to promote the AI literacy and the collaboration among its practitioners in Portugal. -->
 
-Before starting my PhD, I was a Machine Learning researcher at [Inductiva Research Labs](https://inductiva.ai), where I worked on physics-informed neural networks for heat diffusion and coastal dynamics.
+During my PhD, I've interned as an Applied Scientist at Amazon. Before the PhD, I was a Machine Learning researcher at [Inductiva Research Labs](https://inductiva.ai), a startup where I worked on physics-informed neural networks for heat diffusion and coastal dynamics.
 
 Prior to that, I completed my BSc and MSc in Biomedical Engineering from [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/). I was also a visiting student at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 For my MSc thesis, I worked on variance reduction for stochastic convex optimization with [Renato Negrinho](https://www.cs.cmu.edu/~negrinho/), [Pedro Aguiar](http://users.isr.ist.utl.pt/~aguiar/), and [João Xavier](http://users.isr.tecnico.ulisboa.pt/~jxavier/).
