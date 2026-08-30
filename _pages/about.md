@@ -29,6 +29,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <!-- I am currently an Applied Scientist Intern at Amazon. -->
 
+I am currently a Research Intern at [Apple Machine Learning Research](https://machinelearning.apple.com/).
+
 I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research focuses on the interplay between generative models, in particular diffusion, and data structure, often using graph generation as a testbed. I explore both how these models exploit inherent data structure and how to explicitly encode this structure into them, with applications to scientific discovery, such as molecular generation and digital pathology. I am also interested in extending these ideas to broader domains, e.g., language.
 
 <!-- My research interests span generative modeling, graph deep learning, and their applications in scientific discovery. -->
