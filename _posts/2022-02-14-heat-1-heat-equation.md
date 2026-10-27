@@ -13,7 +13,7 @@ description: First blogpost of a series on the Heat equation, where we introduce
 
 **Reviewers**: Fábio Cruz
 
-*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
+*This blog post was developed while working at [Inductiva](https://www.linkedin.com/company/inductiva-ai/posts/?feedView=all).*
 
 ---
 

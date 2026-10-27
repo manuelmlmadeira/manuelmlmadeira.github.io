@@ -14,7 +14,7 @@ description: Second blogpost of the Heat series, on how to solve the Heat equati
 
 **Reviewers**: Fábio Cruz, Augusto Peres
 
-*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
+*This blog post was developed while working at [Inductiva](https://www.linkedin.com/company/inductiva-ai/posts/?feedView=all).*
 
 ---
 

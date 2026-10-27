@@ -13,7 +13,7 @@ description: Fourth and last blogpost of the Heat series. It showcases how to us
 
 **Reviewers**: Fábio Cruz
 
-*This blog post was developed while working at [Inductiva Research Labs](https://inductiva.ai/).*
+*This blog post was developed while working at [Inductiva](https://www.linkedin.com/company/inductiva-ai/posts/?feedView=all).*
 
 ---
 
