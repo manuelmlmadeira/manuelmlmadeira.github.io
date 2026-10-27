@@ -2,12 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in Artificial Intelligence at <a href='https://www.epfl.ch/en/'>EPFL</a>
+subtitle: PhD student in Artificial Intelligence at <a href='https://www.epfl.ch/en/'>EPFL</a>, advised by <a href='https://www.epfl.ch/labs/lts4/people/people-current/frossard/'>Pascal Frossard</a> and <a href='https://people.epfl.ch/dorina.thanou?lang=en'>Dorina Thanou</a>
 #Do not go gentle into that good night
 #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   # address: 
@@ -27,11 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 <!-- Welcome, I am Manuel! -->
 
-<!-- I am currently an Applied Scientist Intern at Amazon. -->
-
-I am currently a Research Intern at [Apple Machine Learning Research](https://machinelearning.apple.com/).
-
-I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://www.epfl.ch/en/) (Switzerland), under the supervision of [Pascal Frossard](https://www.epfl.ch/labs/lts4/people/ people-current/frossard/) and [Dorina Thanou](https://people.epfl.ch/dorina.thanou?lang=en). My research focuses on the interplay between generative models, in particular diffusion, and data structure, often using graph generation as a testbed. I explore both how these models exploit inherent data structure and how to explicitly encode this structure into them, with applications to scientific discovery, such as molecular generation and digital pathology. I am also interested in extending these ideas to broader domains, e.g., language.
+My research focuses on the interplay between generative models, in particular diffusion and flow matching, and data structure, often using graph generation and language modeling as testbeds. I explore both how these models exploit inherent data structure and how to explicitly encode this structure into them. I also apply these methods to scientific problems, including molecular generation and digital pathology.
 
 <!-- My research interests span generative modeling, graph deep learning, and their applications in scientific discovery. -->
 <!-- I have been working on advancing graph generative methods and improving their controllability by leveraging domain knowledge. -->
@@ -43,12 +39,9 @@ I am a PhD student at [LTS4](https://www.epfl.ch/labs/lts4/), at [EPFL](https://
 
 <!-- Apart from Academia, I am also a proud co-organizer of [Deep Learning Sessions Portugal](https://deeplearningpt.github.io). We are a volunteer group whose goal is to promote the AI literacy and the collaboration among its practitioners in Portugal. -->
 
-During my PhD, I've interned as an Applied Scientist at Amazon. Before the PhD, I was a Machine Learning researcher at [Inductiva Research Labs](https://inductiva.ai), a startup where I worked on physics-informed neural networks for heat diffusion and coastal dynamics.
+During my PhD, I interned at [Apple MLR](https://machinelearning.apple.com/), where I investigated training-inference alignment in masked diffusion language models, and at [Amazon](https://www.amazon.science), where I developed graph-based deep learning methods for supply-chain planning. Before starting my PhD, I was a Machine Learning Researcher at [Inductiva](https://www.linkedin.com/company/inductiva-ai/posts/?feedView=all), a startup where I worked on physics-informed neural networks for heat diffusion and coastal dynamics.
 
 Prior to that, I completed my BSc and MSc in Biomedical Engineering from [Instituto Superior Técnico](https://tecnico.ulisboa.pt/en/). I was also a visiting student at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 For my MSc thesis, I worked on variance reduction for stochastic convex optimization with [Renato Negrinho](https://www.cs.cmu.edu/~negrinho/), [Pedro Aguiar](http://users.isr.ist.utl.pt/~aguiar/), and [João Xavier](http://users.isr.tecnico.ulisboa.pt/~jxavier/).
-
-In my spare time, I am really into sports! Back in Portugal, I used to play football at a competitive level. You can check my (Portuguese) football player page [here](https://www.zerozero.pt/player.php?id=473202&epoca_id=151) and a young Manuel playing [here](https://www.youtube.com/watch?v=JuynV0rC6Uw) (8 in red and black stripes).
-I do also enjoy great [books](https://www.goodreads.com/user/show/110959921-manuel-madeira) and [movies](https://letterboxd.com/manuel_madeira/).
 
 For a complete list of publications, check my [Google Scholar page](https://scholar.google.com/citations?user=OhijpAwAAAAJ&hl=pt-PT&oi=sra).
